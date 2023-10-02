@@ -16,5 +16,5 @@ Live preview : - [Coinstein](https://bombayestates-bkta86j4k-devkartikbhardwaj.v
 
 ## Screenshots of the project
 
-                                                                                   ## Home Page
+  ## Home Page
 
