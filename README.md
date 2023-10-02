@@ -1,8 +1,20 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Coinstein
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A cryptocurrency data provider website is a platform that offers a wide range of data and information related to cryptocurrencies. These websites are valuable resources for traders, investors, researchers, and anyone interested in cryptocurrencies.
+
+
+Live preview : - [Coinstein](https://bombayestates-bkta86j4k-devkartikbhardwaj.vercel.app/)
+
+
+## Tech Stack
+
+**Client:** React, vanilla-CSS
+**Api used:** https://www.coingecko.com/en/api/documentation
+
+
+## Screenshots of the project
+
+                                                                                   ## Home Page
+
