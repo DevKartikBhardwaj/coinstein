@@ -10,7 +10,7 @@ Live preview : - [Coinstein](https://bombayestates-bkta86j4k-devkartikbhardwaj.v
 
 ## Tech Stack
 
-**Client:** React, vanilla-CSS
+**Client:** React, vanilla-CSS\
 **Api used:** https://www.coingecko.com/en/api/documentation
 
 
