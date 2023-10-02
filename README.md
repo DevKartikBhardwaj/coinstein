@@ -7,7 +7,7 @@ A cryptocurrency data provider website is a platform that offers a wide range of
 Some of the key features of this website are **History Data**, **Pricing Data**, **About Data**.
 
 
-Live preview : - [Coinstein](https://bombayestates-bkta86j4k-devkartikbhardwaj.vercel.app/)
+Live preview : - [Coinstein](https://coinstein.vercel.app/)
 
 
 ## Tech Stack
