@@ -1,0 +1,81 @@
+#market {
+
+    background: linear-gradient(180deg, rgba(26, 162, 96, 1) 0%, rgba(8, 38, 117, 1) 38%);
+    /* height: 100vh; */
+    padding: 8em 5em;
+}
+
+
+
+#market>.wrap>table {
+    margin: auto;
+    width: 80%;
+    margin-top: 5em;
+    min-width: 600px;
+}
+
+#headRow {
+    background: linear-gradient(152deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 2px;
+    width: 100%;
+}
+
+#market>.wrap>table>tbody>tr>th {
+    padding: 1em;
+    font-size: 1.8em;
+    color: white;
+}
+
+#market>.wrap>table>tbody>tr>td {
+    text-align: center;
+    padding: 1em 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.priceTableBody:hover {
+    cursor: pointer;
+    background-color: #0a5e78af;
+}
+
+.imgRow {
+    display: flex;
+    align-items: center;
+    text-align: left !important;
+}
+
+.imgRow>img {
+    margin: 0 1em;
+}
+
+.navigationBtnWrapper {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em 0;
+
+}
+
+.navigationBtn {
+    height: 40px;
+    width: 40px;
+    padding: 1em;
+    border-radius: 50%;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigationBtn:hover {
+    background-color: #041c62;
+}

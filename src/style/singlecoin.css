@@ -1,0 +1,118 @@
+.singleCoin {
+    background-color: #082675;
+    min-height: 100vh;
+}
+
+.SingleCoinWrapper {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.coinHomePageLink {
+    color: #a8d5fd;
+    /* text-decoration: none; */
+    font-size: 12px;
+}
+
+.singleCoinDescription {
+    width: 30%;
+    border-right: 2px solid white;
+    text-align: center;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.singleCoinDescription>h1 {
+    font-size: 60px;
+    color: #a8d5fd;
+    margin: 10px 0;
+    font-family: 'Handjet', cursive;
+}
+
+.singleCoinDescription>h2 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Handjet', cursive;
+}
+
+.singleCoinDescription>p {
+    color: white;
+    margin: 10px 0;
+    font-size: 25px;
+    text-align: left;
+    line-height: 25px;
+    font-family: 'Handjet', cursive;
+}
+
+.singleCoinDescription>p>a {
+    color: #a8d5fd;
+}
+
+.singleCoinGraph {
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
+
+.graphButtons {
+    border: 2px solid #a8d5fd;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    width: 90px;
+    margin-right: 20px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    margin-top: 20px;
+    transition: all 0.2s ease;
+}
+
+
+.graphButtons:focus {
+    background-color: #a8d5fd;
+    color: black;
+}
+
+/* media queries */
+
+@media screen and (max-width:1260px) {
+    .singleCoin {
+        height: auto;
+    }
+
+    .SingleCoinWrapper {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .singleCoinDescription {
+        border: 0px;
+        width: 50%;
+    }
+
+    .singleCoinGraph {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .singleCoinDescription {
+        width: 90%;
+    }
+
+    .singleCoinDescription>img {
+        height: 100px !important;
+    }
+
+    .singleCoinDescription>p {
+        text-align: center;
+    }
+
+    .singleCoinGraph {
+        padding: 2px;
+        margin: 3em 0;
+    }
+
+}

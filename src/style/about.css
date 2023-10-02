@@ -1,0 +1,26 @@
+#about {
+    background: linear-gradient(180deg, rgba(8, 38, 117, 1) 0%, rgba(5, 5, 96, 1) 38%);
+}
+
+.aboutContentWrapper {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 4em 0;
+}
+
+.aboutContentWrapper>p {
+    align-self: center;
+    justify-self: center;
+    font-size: 20px;
+    color: #a8a8a8;
+    line-height: 32px;
+    width: 42%;
+}
+
+.parahmain {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}

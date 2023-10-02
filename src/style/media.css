@@ -1,0 +1,148 @@
+@media screen and (max-width:1260px) {
+    nav {
+        padding: 2em 4em;
+    }
+
+    .midNav {
+        width: 50%;
+    }
+
+    .homeRight {
+        display: none;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .homeLeft {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .floatingImg1 {
+        top: 120px;
+        left: auto;
+    }
+
+    #market>.wrap>table {
+        width: 100%;
+    }
+
+    .navigationBtnWrapper {
+        width: 80%;
+    }
+
+    .aboutContentWrapper {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .parahmain {
+        font-size: 25px;
+    }
+
+    .aboutContentWrapper>img {
+        height: 250px !important;
+    }
+
+    .joinContentWrapper {
+        width: 100%;
+    }
+
+    .joinContentWrapper>img {
+        height: 250px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    ::-webkit-scrollbar-thumb {
+        border: none;
+    }
+
+    nav {
+        padding: 2em 1em;
+    }
+
+    .midNav {
+        display: none !important;
+    }
+
+    .rightNav {
+        width: 25%;
+        justify-content: space-around;
+    }
+
+    #market {
+        padding: 2em 1em;
+    }
+
+    .wrap {
+        overflow-x: auto;
+    }
+
+
+
+    .homeLeft {
+        align-items: center;
+    }
+
+    .homeLeft-content-wrapper {
+        width: 80%;
+    }
+
+    .home-main-heading {
+        font-size: 2.8em;
+    }
+
+    #about {
+        padding: 3em 0;
+    }
+
+    .aboutContentWrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 2em 0;
+    }
+
+    .aboutContentWrapper>img {
+        width: 350px;
+    }
+
+    .aboutContentWrapper>p {
+        width: 80%;
+    }
+
+    #join {
+        padding: 3em 0;
+    }
+
+    .joinContentWrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 2em 0;
+    }
+
+    .joinContentWrapper>img {
+        width: 250px;
+    }
+
+    .joinSectionLeftArea {
+        width: 80%;
+    }
+
+    .mailInput>input {
+        width: 65%;
+    }
+
+    .navigationBtnWrapper {
+        margin: 2em auto;
+    }
+
+    .navigationBtnWrapper>button:nth-child(n+6):nth-child(-n+10) {
+        display: none;
+    }
+
+    .home-sub-heading {
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,118 @@
+.homeSection {
+    height: 90vh;
+    background: rgb(125, 93, 208);
+    background: linear-gradient(180deg, rgba(125, 93, 208, 1) 0%, rgba(26, 162, 96, 1) 100%);
+    display: flex;
+}
+
+
+.homeLeft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.homeLeft-content-wrapper {
+    width: 50em;
+    font-weight: bold;
+}
+
+.home-main-heading {
+    font-size: 4.8em;
+    color: white;
+}
+
+.home-sub-heading {
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.58);
+    margin: 1em 0;
+}
+
+.homeButton {
+    outline: none;
+    border: 1px solid white;
+    font-size: 2.2em;
+    font-weight: bold;
+    background-color: #7A60CD;
+    border-radius: 3.6em;
+    padding: 0.2em 1em;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.homeButton:hover {
+    background-color: #5a43a6;
+}
+
+.homeRight {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.homeImg {
+    height: 69.3em;
+    width: 70.6em;
+}
+
+.floatingImg {
+    height: 60px;
+    animation: floating 5s infinite;
+}
+
+@keyframes floating {
+
+
+    0% {
+        transform: translateY(0px);
+
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.floatingImg1 {
+    position: absolute;
+    left: 48px;
+    margin-top: -35px;
+}
+
+.floatingImg2 {
+    margin: 0 0 -40px 25px;
+}
+
+.topCoins {
+    display: flex;
+}
+
+.coinCard {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 2em;
+}
+
+.coinCard>img {
+    height: 80px;
+}
+
+.coinCard>h3 {
+    font-size: 2em;
+    margin: 1em 0 0.5em 0;
+    color: #15243e;
+}
+
+.coinCard>h6 {
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: #15243e;
+}
