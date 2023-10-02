@@ -2,7 +2,9 @@
 # Coinstein
 
 
-A cryptocurrency data provider website is a platform that offers a wide range of data and information related to cryptocurrencies. These websites are valuable resources for traders, investors, researchers, and anyone interested in cryptocurrencies.
+A cryptocurrency data provider website is a platform that offers a wide range of data and information related to cryptocurrencies. These websites are valuable resources for traders, investors, researchers, and anyone interested in cryptocurrencies.\
+\
+Some of the key features of this website are **History Data**, **Pricing Data**, **About Data**.
 
 
 Live preview : - [Coinstein](https://bombayestates-bkta86j4k-devkartikbhardwaj.vercel.app/)
